@@ -45,8 +45,8 @@ body{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
-  color: var(--hero-background);
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 .nav-main :hover{
@@ -73,4 +73,78 @@ body{
 
 .adress-info :focus{
   color: var(--pressed-state);
+}
+
+/**********main**********/
+
+.main-hero{
+  background-color: var(--hero-background);
+}
+
+.main-hero_text{
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.main-hero_btn{
+  background-color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  cursor: pointer;
+}
+
+.main-hero_btn :hover{
+  background-color: var(--pressed-state);
+}
+
+.main-hero_btn :focus{
+  background-color: var(--pressed-state);
+}
+
+.main-header{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--modal-overlay);
+}
+
+.main-text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main-header_img{
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
+.our-team{
+  background-color: #F4F4FD;
+}
+
+.our-team_header{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--modal-overlay);
+}
+
+/**********footer**********/
+
+.footer-info{
+  background-color: var(--hero-background);
+  
 }
