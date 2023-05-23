@@ -41,7 +41,7 @@ body{
   list-style: none;
 }
 
-.nav-main{
+.nav-main_link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -61,7 +61,7 @@ body{
   font-style: normal;
 }
 
-.adress-info{
+.adress-info_link{
   letter-spacing: 0.02em;
   color: var(--text);
 
@@ -100,7 +100,7 @@ body{
   cursor: pointer;
 }
 
-.main-hero_btn :hover{
+.main-hero_btn:hover{
   background-color: var(--pressed-state);
 }
 
@@ -123,7 +123,7 @@ body{
 
 .main-header_img{
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -135,11 +135,22 @@ body{
 }
 
 .our-team_header{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--modal-overlay);
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
+.our-team_li{
+  background-color: #fff;
+}
+
+.our-team_par{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /**********footer**********/
@@ -147,3 +158,4 @@ body{
 .footer-info{
   background-color: var(--hero-background);
 }
+
