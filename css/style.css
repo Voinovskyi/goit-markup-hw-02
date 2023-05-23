@@ -1,23 +1,76 @@
-body {
+body{
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/*navigation :active{
-  color: #404BBF
+:root{
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF; 
+  --dark: #2E2F42;
+  --success: #31D0AA;
+  --text: #434455;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background: #2E2F42;
+  --white-background: #ffffff;
+  --modal-background: #FCFCFC;
 }
 
-.header-inform :active{
-  color: #404BBF
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 
-.main-button button{
-  color: #4D5AE5;
+.link{
+  text-decoration: none;
 }
 
-.main-button :hover{
-  color: #fff;
-  background-color: #404BBF;
-  cursor: pointer;
-}*/
+.logo-studio{
+  color: var(--dark);
+}
+
+.list{
+  list-style: none;
+}
+
+.nav-main{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: var(--hero-background);
+}
+
+.nav-main :hover{
+  color: var(--pressed-state);
+}
+
+.nav-main :focus{
+  color: var(--pressed-state);
+}
+
+.header-call{
+  font-style: normal;
+}
+
+.adress-info{
+  letter-spacing: 0.02em;
+  color: var(--text);
+
+}
+
+.adress-info :hover{
+  color: var(--pressed-state);
+}
+
+.adress-info :focus{
+  color: var(--pressed-state);
+}
