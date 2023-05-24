@@ -36,7 +36,7 @@ body{
 }
 
 .logo-studio{
-  color: #2e2f42;  
+  color: #2E2F42; 
 }
 
 .list{
@@ -107,7 +107,7 @@ body{
   background-color: var(--pressed-state);
 }
 
-.main-hero_btn :focus{
+.main-hero_btn:focus{
   background-color: var(--pressed-state);
 }
 
@@ -140,13 +140,8 @@ body{
 
 .our-team_header{
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark);
-
+  font-size: 20px;
+  line-break: 1.2;
 }
 
 .our-team_li{
