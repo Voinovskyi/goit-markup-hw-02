@@ -4,8 +4,18 @@ body{
 }
 
 :root{
-  --text: #434455;
   --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF; 
+  --dark: #2E2F42;
+  --success: #31D0AA;
+  --text: #434455;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background: #2E2F42;
+  --white-background: #ffffff;
+  --modal-background: #FCFCFC;
 }
 
 /**********header**********/
@@ -19,3 +29,52 @@ body{
     text-transform: uppercase;
     color: var(--primary-brand);
   }
+
+.link{
+  text-decoration: none;
+}
+
+.list{
+  list-style: none;
+}
+
+.nav-main_link{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.navigation:hover,
+.navigation:focus{
+  color: var(--pressed-state);
+}
+
+.header-call{
+  font-style: normal;
+}
+
+.header-inform:hover,
+.header-inform:focus{
+  color: #404BBF;
+}
+
+/**********main**********/
+
+.main-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus{
+  color: #fff;
+  background-color: #404BBF;
+}
