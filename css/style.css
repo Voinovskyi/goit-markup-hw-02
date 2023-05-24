@@ -19,6 +19,8 @@ body{
   --modal-background: #FCFCFC;
 }
 
+/**********header**********/
+
 .logo{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -63,16 +65,17 @@ body{
 
 .adress-info_link{
   letter-spacing: 0.02em;
+  line-height: 1.5;
   color: var(--text);
 
 }
 
 .adress-info :hover{
-  color: var(--pressed-state);
+  color: #404BBF;
 }
 
 .adress-info :focus{
-  color: var(--pressed-state);
+  color: #404BBF;
 }
 
 /**********main**********/
@@ -131,16 +134,19 @@ body{
 }
 
 .our-team{
-  background-color: #F4F4FD;
-}
-
-.our-team_header{
-  font-size: 36px;
+  background-color: #F4F4FD;font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
+
+}
+
+.our-team_header{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .our-team_li{
@@ -156,6 +162,12 @@ body{
 /**********footer**********/
 
 .footer-info{
-  background-color: var(--hero-background);
+  background-color: #f4f4fd;
+}
+
+.footer-text{
+  line-height: 1.5;
+  color: var(--light);
+  letter-spacing: 0.02em;
 }
 
