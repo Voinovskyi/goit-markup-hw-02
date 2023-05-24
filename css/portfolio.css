@@ -2,7 +2,12 @@ body{
     font-family: "Roboto", sans-serif;
     color: var(--text);
 }
-  
+
+:root{
+  --text: #434455;
+  --primary-brand: #4D5AE5;
+}
+
 /**********header**********/
 
 .logo{
