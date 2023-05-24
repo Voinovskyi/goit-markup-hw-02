@@ -36,7 +36,7 @@ body{
 }
 
 .logo-studio{
-  color: var(--dark);
+  color: #2e2f42;  
 }
 
 .list{
@@ -46,7 +46,7 @@ body{
 .nav-main_link{
   font-weight: 500;
   font-size: 16px;
-  line-height: q;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
@@ -55,7 +55,7 @@ body{
   color: var(--pressed-state);
 }
 
-.nav-main:focus{
+.nav-main :focus{
   color: var(--pressed-state);
 }
 
@@ -134,19 +134,19 @@ body{
 }
 
 .our-team{
-  background-color: #F4F4FD;font-size: 36px;
+  background-color: #F4F4FD;
+
+}
+
+.our-team_header{
+  font-weight: 500;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
 
-}
-
-.our-team_header{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
 }
 
 .our-team_li{
@@ -157,12 +157,13 @@ body{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 /**********footer**********/
 
 .footer-info{
-  background-color: #f4f4fd;
+  background-color: #2e2f42;
 }
 
 .footer-text{
