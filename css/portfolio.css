@@ -79,6 +79,7 @@ body{
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--light);
+  color: var(--primary-brand);
   cursor: pointer;
 }
 
