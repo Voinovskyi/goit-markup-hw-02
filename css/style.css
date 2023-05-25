@@ -1,28 +1,29 @@
-body{
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+
 :root {
-  --primary-brand: #4D5AE5;
-  --pressed-state: #404BBF; 
-  --dark: #2E2F42;
-  --success: #31D0AA;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
   --text: #434455;
-  --subtle-text: #8E8F99;
-  --accent: #E7E9FC;
-  --light: #F4F4FD;
-  --modal-overlay: #2E2F42;
-  --hero-background: #2E2F42;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
   --white-background: #ffffff;
-  --modal-background: #FCFCFC;
-  --blue: #0000FF;
+  --modal-background: #fcfcfc;
+  --blue: #0000ff;
 }
 
 /**********header**********/
 
-.logo{
-  font-family: 'Raleway', sans-serif;
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -31,19 +32,19 @@ body{
   color: var(--primary-brand);
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
-.logo-studio{
-  color: #2E2F42; 
+.logo-studio {
+  color: #2e2f42;
 }
 
-.list{
+.list {
   list-style: none;
 }
 
-.nav-main_link{
+.nav-main_link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -51,40 +52,39 @@ body{
   color: var(--dark);
 }
 
-.nav-main :hover{
+.nav-main :hover {
   color: var(--pressed-state);
 }
 
-.nav-main :focus{
+.nav-main :focus {
   color: var(--pressed-state);
 }
 
-.header-call{
+.header-call {
   font-style: normal;
 }
 
-.adress-info_link{
+.adress-info_link {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--text);
-
 }
 
-.adress-info :hover{
-  color: #404BBF;
+.adress-info :hover {
+  color: #404bbf;
 }
 
-.adress-info :focus{
-  color: #404BBF;
+.adress-info :focus {
+  color: #404bbf;
 }
 
 /**********main**********/
 
-.main-hero{
+.main-hero {
   background-color: var(--hero-background);
 }
 
-.main-hero_text{
+.main-hero_text {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -92,7 +92,7 @@ body{
   color: var(--white-background);
 }
 
-.main-hero_btn{
+.main-hero_btn {
   background-color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -103,15 +103,15 @@ body{
   cursor: pointer;
 }
 
-.main-hero_btn:hover{
+.main-hero_btn:hover {
   background-color: var(--pressed-state);
 }
 
-.main-hero_btn:focus{
+.main-hero_btn:focus {
   background-color: var(--pressed-state);
 }
 
-.main-header{
+.main-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -119,12 +119,12 @@ body{
   color: var(--modal-overlay);
 }
 
-.main-text{
+.main-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.main-header_img{
+.main-header_img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -133,12 +133,11 @@ body{
   color: var(--dark);
 }
 
-.our-team{
-  background-color: #F4F4FD;
-
+.our-team {
+  background-color: #f4f4fd;
 }
 
-.our-team_header{
+.our-team_header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -146,11 +145,11 @@ body{
   color: var(--hero-background);
 }
 
-.our-team_li{
+.our-team_li {
   background-color: #fff;
 }
 
-.our-team_par{
+.our-team_par {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -159,16 +158,16 @@ body{
 
 /**********footer**********/
 
-.footer-info{
+.footer-info {
   background-color: #2e2f42;
 }
 
-.footer-text{
+.footer-text {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
 }
 
-.footer-color{
+.footer-color {
   color: #f4f4fd;
 }

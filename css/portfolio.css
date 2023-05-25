@@ -3,20 +3,20 @@ body {
   color: var(--text);
 }
 
-.root {
-  --primary-brand: #4d5ae5;
-  --pressed-state: #404bbf;
-  --dark: #2e2f42;
-  --success: #31d0aa;
+:root {
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF; 
+  --dark: #2E2F42;
+  --success: #31D0AA;
   --text: #434455;
-  --subtle-text: #8e8f99;
-  --accent: #e7e9fc;
-  --light: #f4f4fd;
-  --modal-overlay: #2e2f42;
-  --hero-background: #2e2f42;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background: #2E2F42;
   --white-background: #ffffff;
-  --modal-background: #fcfcfc;
-  --blue: #0000ff;
+  --modal-background: #FCFCFC;
+  --blue: #0000FF;
 }
 
 /**********header**********/
