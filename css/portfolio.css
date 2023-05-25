@@ -3,7 +3,7 @@ body{
     color: var(--text);
 }
 
-:root{
+/*.root{
   --primary-brand: #4D5AE5;
   --pressed-state: #404BBF; 
   --dark: #2E2F42;
@@ -16,7 +16,7 @@ body{
   --hero-background: #2E2F42;
   --white-background: #ffffff;
   --modal-background: #FCFCFC;
-}
+}*/
 
 /**********header**********/
 
