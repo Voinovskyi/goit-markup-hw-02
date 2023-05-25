@@ -1,3 +1,8 @@
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 :root{
   --primary-brand: #4D5AE5;
   --pressed-state: #404BBF; 
@@ -11,12 +16,6 @@
   --hero-background: #2E2F42;
   --white-background: #ffffff;
   --modal-background: #FCFCFC;
-}
-
-body{
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
 }
 
 /**********header**********/
