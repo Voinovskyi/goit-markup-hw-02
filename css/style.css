@@ -60,14 +60,14 @@ body {
   font-style: normal;
 }
 
-.adress-info_link {
-  letter-spacing: 0.02em;
+.adress-info_link{
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 
-.adress-info:hover,
-.adress-info:focus {
+.adress-info_link:hover,
+.adress-info_link:focus {
   color: #404bbf;
 }
 
