@@ -48,7 +48,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text);
+  color: var(--dark);
 }
 
 .nav-main_link:hover,
@@ -67,7 +67,7 @@ body {
 }
 
 .adress-info_link:hover,
-.adress-info_link:focus {
+.adress-info_link:focus{
   color: #404bbf;
 }
 
@@ -180,10 +180,10 @@ body {
   cursor: pointer;
 }
 
-.main-hero_btn:hover,
-.main-hero_btn:focus{
+.main-button:hover,
+.main-button:focus{
   color: #ffffff;
-  background-color: var(--pressed-state);
+  background-color: #404BBF ;
 }
 
 .section-header{
