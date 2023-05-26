@@ -13,8 +13,6 @@ body {
   --subtle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
-  --modal-overlay: #2e2f42;
-  --hero-background: #2e2f42;
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
@@ -74,7 +72,7 @@ body {
 /**********main**********/
 
 .main-hero {
-  background-color: var(--hero-background);
+  background-color: var(--dark);
 }
 
 .main-hero_text {
@@ -135,7 +133,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--hero-background);
+  color: var(--dark);
 }
 
 .our-team_li {
