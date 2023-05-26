@@ -17,7 +17,6 @@ body {
   --hero-background: #2e2f42;
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
-  --blue: #0000ff;
 }
 
 /**********header**********/
@@ -49,7 +48,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .nav-main_link:hover,
@@ -170,24 +169,24 @@ body {
 /**********PORTFOLIO**********/
 
 
-.main-button {
+.main-button{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--light);
   color: var(--primary-brand);
+  background-color: var(--light);
   cursor: pointer;
 }
 
-.main-button:hover,
-.main-button:focus {
+.main-hero_btn:hover,
+.main-hero_btn:focus{
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
 }
 
-.section-header {
+.section-header{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -204,12 +203,12 @@ body {
 
 /**********footer**********/
 
-.footer-portfolio {
-  background-color: var(--modal-overlay);
+.footer-portfolio{
+  background-color: var(--dark);
 }
 
-.footer-logo {
-  font-family: "Raleway", sans-serif;
+.footer-logo{
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
