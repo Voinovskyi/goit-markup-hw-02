@@ -23,8 +23,8 @@ ol {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@ ol {
 .address-info_link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .address-info_link:hover,
@@ -75,17 +75,18 @@ ol {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .main-hero_btn {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -108,14 +109,18 @@ ol {
   letter-spacing: 0.32px;
 }
 
+/**********Section3-OurTeam**********/
+
 .team {
   background-color: #f4f4fd;
 }
 
 .team-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -140,11 +145,15 @@ ol {
   letter-spacing: 0.32px;
 }
 
+/**********Section4-Portfolio**********/
+
 .portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -166,7 +175,7 @@ ol {
 /**********FOOTER**********/
 
 .footer-main {
-  background-color: #434455;
+  background-color: #2e2f42;
 }
 
 .footer-logo_studio {
